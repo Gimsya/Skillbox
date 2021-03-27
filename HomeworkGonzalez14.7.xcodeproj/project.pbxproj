@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E796E19260AF43800CB83A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E796E18260AF43800CB83A2 /* AppDelegate.swift */; };
+		3E796E1B260AF43800CB83A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E796E1A260AF43800CB83A2 /* SceneDelegate.swift */; };
+		3E796E1D260AF43800CB83A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E796E1C260AF43800CB83A2 /* ViewController.swift */; };
+		3E796E20260AF43800CB83A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E796E1E260AF43800CB83A2 /* Main.storyboard */; };
+		3E796E22260AF43C00CB83A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E796E21260AF43C00CB83A2 /* Assets.xcassets */; };
+		3E796E25260AF43C00CB83A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E796E23260AF43C00CB83A2 /* LaunchScreen.storyboard */; };
+		3E796E30260AF43C00CB83A2 /* HomeworkGonzalez14_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E796E2F260AF43C00CB83A2 /* HomeworkGonzalez14_7Tests.swift */; };
+		3E796E3B260AF43C00CB83A2 /* HomeworkGonzalez14_7UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E796E3A260AF43C00CB83A2 /* HomeworkGonzalez14_7UITests.swift */; };
+		3E796E4C260AF53200CB83A2 /* ud2a.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E796E4B260AF53200CB83A2 /* ud2a.swift */; };
+		3EA4AFA6260BEA7200EAB47A /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4AFA4260BEA7200EAB47A /* CoreData.xcdatamodeld */; };
+		3EA4AFBB260C351700EAB47A /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4AFBA260C351700EAB47A /* VC3.swift */; };
+		3EA4AFC3260C35CE00EAB47A /* VCWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4AFC2260C35CE00EAB47A /* VCWeather.swift */; };
+		3EA4AFCB260C3BE300EAB47A /* VCWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4AFCA260C3BE300EAB47A /* VCWeatherData.swift */; };
+		3EA4AFD1260C548100EAB47A /* ToDoListHere+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4AFCF260C548100EAB47A /* ToDoListHere+CoreDataClass.swift */; };
+		3EA4AFD2260C548100EAB47A /* ToDoListHere+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA4AFD0260C548100EAB47A /* ToDoListHere+CoreDataProperties.swift */; };
+		3EC9E277260FA955004CFCA8 /* VCWeatherLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E276260FA955004CFCA8 /* VCWeatherLoader.swift */; };
+		3EC9E27C260FA9A5004CFCA8 /* VCWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC9E27B260FA9A5004CFCA8 /* VCWeatherCell.swift */; };
+		3EF31EAF260B108C00C976F2 /* VC2b.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF31EAE260B108C00C976F2 /* VC2b.swift */; };
+		3EF31EB7260B115000C976F2 /* VC2bCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF31EB6260B115000C976F2 /* VC2bCell.swift */; };
+		3EF31EBF260B169800C976F2 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF31EBE260B169800C976F2 /* Persistance.swift */; };
+		3EF31ECB260B334A00C976F2 /* VC2c.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF31ECA260B334900C976F2 /* VC2c.swift */; };
+		3EF31ED0260B36D400C976F2 /* VC2c2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF31ECF260B36D400C976F2 /* VC2c2.swift */; };
+		3EF31ED5260B370800C976F2 /* VC2c3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF31ED4260B370800C976F2 /* VC2c3.swift */; };
+		5E583C90DA6CC5E23E9DFE27 /* Pods_HomeworkGonzalez14_7Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C36AD0005D088F27669E87B6 /* Pods_HomeworkGonzalez14_7Tests.framework */; };
+		78438416FB6F1B87BFE31CDF /* Pods_HomeworkGonzalez14_7.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E318EEDDF8D6B70C9F0E136 /* Pods_HomeworkGonzalez14_7.framework */; };
+		935395FFED1D8F0B37F41B2B /* Pods_HomeworkGonzalez14_7_HomeworkGonzalez14_7UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C879C1C79C7224B7F4BF0D03 /* Pods_HomeworkGonzalez14_7_HomeworkGonzalez14_7UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E796E2C260AF43C00CB83A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E796E0D260AF43800CB83A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E796E14260AF43800CB83A2;
+			remoteInfo = HomeworkGonzalez14.7;
+		};
+		3E796E37260AF43C00CB83A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E796E0D260AF43800CB83A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E796E14260AF43800CB83A2;
+			remoteInfo = HomeworkGonzalez14.7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E318EEDDF8D6B70C9F0E136 /* Pods_HomeworkGonzalez14_7.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeworkGonzalez14_7.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AE62530EAAFFDFE2A7EE93 /* Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.debug.xcconfig"; path = "Target Support Files/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E796E15260AF43800CB83A2 /* HomeworkGonzalez14.7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkGonzalez14.7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E796E18260AF43800CB83A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E796E1A260AF43800CB83A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E796E1C260AF43800CB83A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E796E1F260AF43800CB83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E796E21260AF43C00CB83A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E796E24260AF43C00CB83A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E796E26260AF43C00CB83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E796E2B260AF43C00CB83A2 /* HomeworkGonzalez14.7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkGonzalez14.7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E796E2F260AF43C00CB83A2 /* HomeworkGonzalez14_7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkGonzalez14_7Tests.swift; sourceTree = "<group>"; };
+		3E796E31260AF43C00CB83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E796E36260AF43C00CB83A2 /* HomeworkGonzalez14.7UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeworkGonzalez14.7UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E796E3A260AF43C00CB83A2 /* HomeworkGonzalez14_7UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkGonzalez14_7UITests.swift; sourceTree = "<group>"; };
+		3E796E3C260AF43C00CB83A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E796E4B260AF53200CB83A2 /* ud2a.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ud2a.swift; sourceTree = "<group>"; };
+		3EA4AFA5260BEA7200EAB47A /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		3EA4AFBA260C351700EAB47A /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
+		3EA4AFC2260C35CE00EAB47A /* VCWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCWeather.swift; sourceTree = "<group>"; };
+		3EA4AFCA260C3BE300EAB47A /* VCWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCWeatherData.swift; sourceTree = "<group>"; };
+		3EA4AFCF260C548100EAB47A /* ToDoListHere+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ToDoListHere+CoreDataClass.swift"; path = "/Users/gims/Desktop/Skillbox/HomeworkGonzalez14.7/HomeworkGonzalez14.7/ToDoListHere+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		3EA4AFD0260C548100EAB47A /* ToDoListHere+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ToDoListHere+CoreDataProperties.swift"; path = "/Users/gims/Desktop/Skillbox/HomeworkGonzalez14.7/HomeworkGonzalez14.7/ToDoListHere+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		3EC9E276260FA955004CFCA8 /* VCWeatherLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCWeatherLoader.swift; sourceTree = "<group>"; };
+		3EC9E27B260FA9A5004CFCA8 /* VCWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCWeatherCell.swift; sourceTree = "<group>"; };
+		3EF31EAE260B108C00C976F2 /* VC2b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2b.swift; sourceTree = "<group>"; };
+		3EF31EB6260B115000C976F2 /* VC2bCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2bCell.swift; sourceTree = "<group>"; };
+		3EF31EBE260B169800C976F2 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		3EF31ECA260B334900C976F2 /* VC2c.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2c.swift; sourceTree = "<group>"; };
+		3EF31ECF260B36D400C976F2 /* VC2c2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2c2.swift; sourceTree = "<group>"; };
+		3EF31ED4260B370800C976F2 /* VC2c3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2c3.swift; sourceTree = "<group>"; };
+		42FC956AFD9BA84D3A85D001 /* Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.release.xcconfig"; path = "Target Support Files/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.release.xcconfig"; sourceTree = "<group>"; };
+		445AFA39BDF56134F1F38114 /* Pods-HomeworkGonzalez14.7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkGonzalez14.7.debug.xcconfig"; path = "Target Support Files/Pods-HomeworkGonzalez14.7/Pods-HomeworkGonzalez14.7.debug.xcconfig"; sourceTree = "<group>"; };
+		5660BD3EE9E58D5F2AADF832 /* Pods-HomeworkGonzalez14.7Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkGonzalez14.7Tests.debug.xcconfig"; path = "Target Support Files/Pods-HomeworkGonzalez14.7Tests/Pods-HomeworkGonzalez14.7Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		583FAA4BEF0D48C6983223E9 /* Pods-HomeworkGonzalez14.7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkGonzalez14.7.release.xcconfig"; path = "Target Support Files/Pods-HomeworkGonzalez14.7/Pods-HomeworkGonzalez14.7.release.xcconfig"; sourceTree = "<group>"; };
+		A164CBD6C1F33D2D7F7343CD /* Pods-HomeworkGonzalez14.7Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeworkGonzalez14.7Tests.release.xcconfig"; path = "Target Support Files/Pods-HomeworkGonzalez14.7Tests/Pods-HomeworkGonzalez14.7Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C36AD0005D088F27669E87B6 /* Pods_HomeworkGonzalez14_7Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeworkGonzalez14_7Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C879C1C79C7224B7F4BF0D03 /* Pods_HomeworkGonzalez14_7_HomeworkGonzalez14_7UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeworkGonzalez14_7_HomeworkGonzalez14_7UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E796E12260AF43800CB83A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78438416FB6F1B87BFE31CDF /* Pods_HomeworkGonzalez14_7.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E796E28260AF43C00CB83A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E583C90DA6CC5E23E9DFE27 /* Pods_HomeworkGonzalez14_7Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E796E33260AF43C00CB83A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				935395FFED1D8F0B37F41B2B /* Pods_HomeworkGonzalez14_7_HomeworkGonzalez14_7UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20ABD03724A111C0D0E131AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				445AFA39BDF56134F1F38114 /* Pods-HomeworkGonzalez14.7.debug.xcconfig */,
+				583FAA4BEF0D48C6983223E9 /* Pods-HomeworkGonzalez14.7.release.xcconfig */,
+				32AE62530EAAFFDFE2A7EE93 /* Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.debug.xcconfig */,
+				42FC956AFD9BA84D3A85D001 /* Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.release.xcconfig */,
+				5660BD3EE9E58D5F2AADF832 /* Pods-HomeworkGonzalez14.7Tests.debug.xcconfig */,
+				A164CBD6C1F33D2D7F7343CD /* Pods-HomeworkGonzalez14.7Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E796E0C260AF43800CB83A2 = {
+			isa = PBXGroup;
+			children = (
+				3E796E17260AF43800CB83A2 /* HomeworkGonzalez14.7 */,
+				3E796E2E260AF43C00CB83A2 /* HomeworkGonzalez14.7Tests */,
+				3E796E39260AF43C00CB83A2 /* HomeworkGonzalez14.7UITests */,
+				3E796E16260AF43800CB83A2 /* Products */,
+				20ABD03724A111C0D0E131AA /* Pods */,
+				BBF4FC038C869854864214A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E796E16260AF43800CB83A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E796E15260AF43800CB83A2 /* HomeworkGonzalez14.7.app */,
+				3E796E2B260AF43C00CB83A2 /* HomeworkGonzalez14.7Tests.xctest */,
+				3E796E36260AF43C00CB83A2 /* HomeworkGonzalez14.7UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E796E17260AF43800CB83A2 /* HomeworkGonzalez14.7 */ = {
+			isa = PBXGroup;
+			children = (
+				3EA4AFD6260C549200EAB47A /* ToDoListHere */,
+				3E796E18260AF43800CB83A2 /* AppDelegate.swift */,
+				3E796E1A260AF43800CB83A2 /* SceneDelegate.swift */,
+				3E796E1E260AF43800CB83A2 /* Main.storyboard */,
+				3EA4AFC2260C35CE00EAB47A /* VCWeather.swift */,
+				3EC9E27B260FA9A5004CFCA8 /* VCWeatherCell.swift */,
+				3EC9E276260FA955004CFCA8 /* VCWeatherLoader.swift */,
+				3EA4AFCA260C3BE300EAB47A /* VCWeatherData.swift */,
+				3EA4AFBA260C351700EAB47A /* VC3.swift */,
+				3EF31EAE260B108C00C976F2 /* VC2b.swift */,
+				3EF31EB6260B115000C976F2 /* VC2bCell.swift */,
+				3EF31EBE260B169800C976F2 /* Persistance.swift */,
+				3EF31ECA260B334900C976F2 /* VC2c.swift */,
+				3EF31ECF260B36D400C976F2 /* VC2c2.swift */,
+				3EF31ED4260B370800C976F2 /* VC2c3.swift */,
+				3E796E1C260AF43800CB83A2 /* ViewController.swift */,
+				3E796E4B260AF53200CB83A2 /* ud2a.swift */,
+				3E796E21260AF43C00CB83A2 /* Assets.xcassets */,
+				3E796E23260AF43C00CB83A2 /* LaunchScreen.storyboard */,
+				3E796E26260AF43C00CB83A2 /* Info.plist */,
+				3EA4AFA4260BEA7200EAB47A /* CoreData.xcdatamodeld */,
+			);
+			path = HomeworkGonzalez14.7;
+			sourceTree = "<group>";
+		};
+		3E796E2E260AF43C00CB83A2 /* HomeworkGonzalez14.7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E796E2F260AF43C00CB83A2 /* HomeworkGonzalez14_7Tests.swift */,
+				3E796E31260AF43C00CB83A2 /* Info.plist */,
+			);
+			path = HomeworkGonzalez14.7Tests;
+			sourceTree = "<group>";
+		};
+		3E796E39260AF43C00CB83A2 /* HomeworkGonzalez14.7UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E796E3A260AF43C00CB83A2 /* HomeworkGonzalez14_7UITests.swift */,
+				3E796E3C260AF43C00CB83A2 /* Info.plist */,
+			);
+			path = HomeworkGonzalez14.7UITests;
+			sourceTree = "<group>";
+		};
+		3EA4AFD6260C549200EAB47A /* ToDoListHere */ = {
+			isa = PBXGroup;
+			children = (
+				3EA4AFCF260C548100EAB47A /* ToDoListHere+CoreDataClass.swift */,
+				3EA4AFD0260C548100EAB47A /* ToDoListHere+CoreDataProperties.swift */,
+			);
+			path = ToDoListHere;
+			sourceTree = "<group>";
+		};
+		BBF4FC038C869854864214A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E318EEDDF8D6B70C9F0E136 /* Pods_HomeworkGonzalez14_7.framework */,
+				C879C1C79C7224B7F4BF0D03 /* Pods_HomeworkGonzalez14_7_HomeworkGonzalez14_7UITests.framework */,
+				C36AD0005D088F27669E87B6 /* Pods_HomeworkGonzalez14_7Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E796E14260AF43800CB83A2 /* HomeworkGonzalez14.7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E796E3F260AF43C00CB83A2 /* Build configuration list for PBXNativeTarget "HomeworkGonzalez14.7" */;
+			buildPhases = (
+				D7306679F94594691743D2B3 /* [CP] Check Pods Manifest.lock */,
+				3E796E11260AF43800CB83A2 /* Sources */,
+				3E796E12260AF43800CB83A2 /* Frameworks */,
+				3E796E13260AF43800CB83A2 /* Resources */,
+				B0027F7CDAB91B0D62473DD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeworkGonzalez14.7;
+			productName = HomeworkGonzalez14.7;
+			productReference = 3E796E15260AF43800CB83A2 /* HomeworkGonzalez14.7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E796E2A260AF43C00CB83A2 /* HomeworkGonzalez14.7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E796E42260AF43C00CB83A2 /* Build configuration list for PBXNativeTarget "HomeworkGonzalez14.7Tests" */;
+			buildPhases = (
+				08F1755CE25F44FE96700008 /* [CP] Check Pods Manifest.lock */,
+				3E796E27260AF43C00CB83A2 /* Sources */,
+				3E796E28260AF43C00CB83A2 /* Frameworks */,
+				3E796E29260AF43C00CB83A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E796E2D260AF43C00CB83A2 /* PBXTargetDependency */,
+			);
+			name = HomeworkGonzalez14.7Tests;
+			productName = HomeworkGonzalez14.7Tests;
+			productReference = 3E796E2B260AF43C00CB83A2 /* HomeworkGonzalez14.7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E796E35260AF43C00CB83A2 /* HomeworkGonzalez14.7UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E796E45260AF43C00CB83A2 /* Build configuration list for PBXNativeTarget "HomeworkGonzalez14.7UITests" */;
+			buildPhases = (
+				843EEABD9AA3469F986F32C7 /* [CP] Check Pods Manifest.lock */,
+				3E796E32260AF43C00CB83A2 /* Sources */,
+				3E796E33260AF43C00CB83A2 /* Frameworks */,
+				3E796E34260AF43C00CB83A2 /* Resources */,
+				F8507A68EFC85CC14277CE7A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E796E38260AF43C00CB83A2 /* PBXTargetDependency */,
+			);
+			name = HomeworkGonzalez14.7UITests;
+			productName = HomeworkGonzalez14.7UITests;
+			productReference = 3E796E36260AF43C00CB83A2 /* HomeworkGonzalez14.7UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E796E0D260AF43800CB83A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3E796E14260AF43800CB83A2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3E796E2A260AF43C00CB83A2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3E796E14260AF43800CB83A2;
+					};
+					3E796E35260AF43C00CB83A2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3E796E14260AF43800CB83A2;
+					};
+				};
+			};
+			buildConfigurationList = 3E796E10260AF43800CB83A2 /* Build configuration list for PBXProject "HomeworkGonzalez14.7" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E796E0C260AF43800CB83A2;
+			productRefGroup = 3E796E16260AF43800CB83A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E796E14260AF43800CB83A2 /* HomeworkGonzalez14.7 */,
+				3E796E2A260AF43C00CB83A2 /* HomeworkGonzalez14.7Tests */,
+				3E796E35260AF43C00CB83A2 /* HomeworkGonzalez14.7UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E796E13260AF43800CB83A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E796E25260AF43C00CB83A2 /* LaunchScreen.storyboard in Resources */,
+				3E796E22260AF43C00CB83A2 /* Assets.xcassets in Resources */,
+				3E796E20260AF43800CB83A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E796E29260AF43C00CB83A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E796E34260AF43C00CB83A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F1755CE25F44FE96700008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeworkGonzalez14.7Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843EEABD9AA3469F986F32C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0027F7CDAB91B0D62473DD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeworkGonzalez14.7/Pods-HomeworkGonzalez14.7-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeworkGonzalez14.7/Pods-HomeworkGonzalez14.7-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeworkGonzalez14.7/Pods-HomeworkGonzalez14.7-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7306679F94594691743D2B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HomeworkGonzalez14.7-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8507A68EFC85CC14277CE7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests/Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E796E11260AF43800CB83A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC9E277260FA955004CFCA8 /* VCWeatherLoader.swift in Sources */,
+				3EA4AFBB260C351700EAB47A /* VC3.swift in Sources */,
+				3EA4AFD2260C548100EAB47A /* ToDoListHere+CoreDataProperties.swift in Sources */,
+				3EA4AFD1260C548100EAB47A /* ToDoListHere+CoreDataClass.swift in Sources */,
+				3EF31EBF260B169800C976F2 /* Persistance.swift in Sources */,
+				3EF31ED5260B370800C976F2 /* VC2c3.swift in Sources */,
+				3E796E1D260AF43800CB83A2 /* ViewController.swift in Sources */,
+				3EC9E27C260FA9A5004CFCA8 /* VCWeatherCell.swift in Sources */,
+				3EA4AFA6260BEA7200EAB47A /* CoreData.xcdatamodeld in Sources */,
+				3EF31ED0260B36D400C976F2 /* VC2c2.swift in Sources */,
+				3E796E4C260AF53200CB83A2 /* ud2a.swift in Sources */,
+				3EA4AFCB260C3BE300EAB47A /* VCWeatherData.swift in Sources */,
+				3EF31ECB260B334A00C976F2 /* VC2c.swift in Sources */,
+				3EF31EAF260B108C00C976F2 /* VC2b.swift in Sources */,
+				3EA4AFC3260C35CE00EAB47A /* VCWeather.swift in Sources */,
+				3E796E19260AF43800CB83A2 /* AppDelegate.swift in Sources */,
+				3EF31EB7260B115000C976F2 /* VC2bCell.swift in Sources */,
+				3E796E1B260AF43800CB83A2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E796E27260AF43C00CB83A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E796E30260AF43C00CB83A2 /* HomeworkGonzalez14_7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E796E32260AF43C00CB83A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E796E3B260AF43C00CB83A2 /* HomeworkGonzalez14_7UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E796E2D260AF43C00CB83A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E796E14260AF43800CB83A2 /* HomeworkGonzalez14.7 */;
+			targetProxy = 3E796E2C260AF43C00CB83A2 /* PBXContainerItemProxy */;
+		};
+		3E796E38260AF43C00CB83A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E796E14260AF43800CB83A2 /* HomeworkGonzalez14.7 */;
+			targetProxy = 3E796E37260AF43C00CB83A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E796E1E260AF43800CB83A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E796E1F260AF43800CB83A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E796E23260AF43C00CB83A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E796E24260AF43C00CB83A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E796E3D260AF43C00CB83A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E796E3E260AF43C00CB83A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E796E40260AF43C00CB83A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445AFA39BDF56134F1F38114 /* Pods-HomeworkGonzalez14.7.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeworkGonzalez14.7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gims.HomeworkGonzalez14-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E796E41260AF43C00CB83A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583FAA4BEF0D48C6983223E9 /* Pods-HomeworkGonzalez14.7.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeworkGonzalez14.7/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gims.HomeworkGonzalez14-7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E796E43260AF43C00CB83A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5660BD3EE9E58D5F2AADF832 /* Pods-HomeworkGonzalez14.7Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeworkGonzalez14.7Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gims.HomeworkGonzalez14-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeworkGonzalez14.7.app/HomeworkGonzalez14.7";
+			};
+			name = Debug;
+		};
+		3E796E44260AF43C00CB83A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A164CBD6C1F33D2D7F7343CD /* Pods-HomeworkGonzalez14.7Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeworkGonzalez14.7Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gims.HomeworkGonzalez14-7Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeworkGonzalez14.7.app/HomeworkGonzalez14.7";
+			};
+			name = Release;
+		};
+		3E796E46260AF43C00CB83A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32AE62530EAAFFDFE2A7EE93 /* Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeworkGonzalez14.7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gims.HomeworkGonzalez14-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeworkGonzalez14.7;
+			};
+			name = Debug;
+		};
+		3E796E47260AF43C00CB83A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42FC956AFD9BA84D3A85D001 /* Pods-HomeworkGonzalez14.7-HomeworkGonzalez14.7UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HomeworkGonzalez14.7UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gims.HomeworkGonzalez14-7UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HomeworkGonzalez14.7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E796E10260AF43800CB83A2 /* Build configuration list for PBXProject "HomeworkGonzalez14.7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E796E3D260AF43C00CB83A2 /* Debug */,
+				3E796E3E260AF43C00CB83A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E796E3F260AF43C00CB83A2 /* Build configuration list for PBXNativeTarget "HomeworkGonzalez14.7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E796E40260AF43C00CB83A2 /* Debug */,
+				3E796E41260AF43C00CB83A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E796E42260AF43C00CB83A2 /* Build configuration list for PBXNativeTarget "HomeworkGonzalez14.7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E796E43260AF43C00CB83A2 /* Debug */,
+				3E796E44260AF43C00CB83A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E796E45260AF43C00CB83A2 /* Build configuration list for PBXNativeTarget "HomeworkGonzalez14.7UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E796E46260AF43C00CB83A2 /* Debug */,
+				3E796E47260AF43C00CB83A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EA4AFA4260BEA7200EAB47A /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EA4AFA5260BEA7200EAB47A /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 3EA4AFA5260BEA7200EAB47A /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E796E0D260AF43800CB83A2 /* Project object */;
+}
